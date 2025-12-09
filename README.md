@@ -15,3 +15,5 @@ It includes, roles and permisions
 -Automatic scripts for register all users in a row, considerating their origin table
 
 -Define a company name and design a logo
+
+-Join linux client to a the domain
