@@ -13,3 +13,5 @@ It includes, roles and permisions
 -Roles asignation a group policyies
 
 -Automatic scripts for register all users in a row, considerating their origin table
+
+-Define a company name and design a logo
