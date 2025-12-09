@@ -10,7 +10,7 @@ I will uploading my advantanges
 -Users Database:
 It includes, roles and permisions
 
--Roles asignation a group policyies
+-Roles asignation and group policies
 
 -Automatic scripts for register all users in a row, considerating their origin table
 
