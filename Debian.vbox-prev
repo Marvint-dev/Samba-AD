@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{e770eb77-ba88-4885-aa71-897114307b86}" name="Debian" OSType="Debian_64" currentSnapshot="{6c35fb88-52d3-4ae2-a349-6e9fb77915af}" snapshotFolder="Snapshots" lastStateChange="2025-12-03T00:52:48Z">
+  <Machine uuid="{e770eb77-ba88-4885-aa71-897114307b86}" name="Debian" OSType="Debian_64" currentSnapshot="{496f3741-1815-48ac-8a06-f4e945594b21}" snapshotFolder="Snapshots" lastStateChange="2025-12-06T01:30:54Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{1acdebe7-9e5b-44bd-8ec9-4b4b17e48b75}" location="Debian.vmdk" format="VMDK" type="Normal">
@@ -36,7 +36,9 @@
               </HardDisk>
               <HardDisk uuid="{599b17ac-599a-41dc-a1eb-3b1fb9db8d5e}" location="Snapshots/{599b17ac-599a-41dc-a1eb-3b1fb9db8d5e}.vmdk" format="VMDK">
                 <HardDisk uuid="{a809e904-44c1-45a2-aaac-08dbb7a7e33c}" location="Snapshots/{a809e904-44c1-45a2-aaac-08dbb7a7e33c}.vmdk" format="VMDK">
-                  <HardDisk uuid="{94d1a7bf-9911-40f7-9540-fcb3de6df8c4}" location="Snapshots/{94d1a7bf-9911-40f7-9540-fcb3de6df8c4}.vmdk" format="VMDK"/>
+                  <HardDisk uuid="{94d1a7bf-9911-40f7-9540-fcb3de6df8c4}" location="Snapshots/{94d1a7bf-9911-40f7-9540-fcb3de6df8c4}.vmdk" format="VMDK">
+                    <HardDisk uuid="{7e96d184-55b5-473c-8ca5-0d78b20d305f}" location="Snapshots/{7e96d184-55b5-473c-8ca5-0d78b20d305f}.vmdk" format="VMDK"/>
+                  </HardDisk>
                 </HardDisk>
               </HardDisk>
             </HardDisk>
@@ -49,7 +51,7 @@
       </DVDImages>
     </MediaRegistry>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastCloseAction" value="SaveState"/>
+      <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
       <ExtraDataItem name="GUI/LastNormalWindowPosition" value="0,29,1920,1001,max"/>
     </ExtraData>
     <Snapshot uuid="{8d856da2-fc63-4932-8fe1-248856092c04}" name="Instant&#xE1;nea 1" timeStamp="2025-11-27T00:17:12Z" stateFile="Snapshots/2025-11-27T00-17-12-263414400Z.sav">
@@ -1319,6 +1321,81 @@
                           </StorageController>
                         </StorageControllers>
                       </Hardware>
+                      <Snapshots>
+                        <Snapshot uuid="{496f3741-1815-48ac-8a06-f4e945594b21}" name="DEBIAN AD NO PSSWD" timeStamp="2025-12-03T23:26:23Z" stateFile="Snapshots/2025-12-03T23-26-23-553257300Z.sav">
+                          <Hardware>
+                            <CPU count="2">
+                              <PAE enabled="false"/>
+                              <LongMode enabled="true"/>
+                              <X2APIC enabled="true"/>
+                              <HardwareVirtExLargePages enabled="true"/>
+                            </CPU>
+                            <Memory RAMSize="8192"/>
+                            <HID Pointing="USBTablet"/>
+                            <Display controller="VMSVGA" VRAMSize="16"/>
+                            <BIOS>
+                              <IOAPIC enabled="true"/>
+                              <SmbiosUuidLittleEndian enabled="true"/>
+                            </BIOS>
+                            <USB>
+                              <Controllers>
+                                <Controller name="OHCI" type="OHCI"/>
+                                <Controller name="EHCI" type="EHCI"/>
+                              </Controllers>
+                            </USB>
+                            <Network>
+                              <Adapter slot="0" enabled="true" MACAddress="080027BA236E" type="82540EM">
+                                <DisabledModes>
+                                  <NAT localhost-reachable="true"/>
+                                  <InternalNetwork name="intnet"/>
+                                </DisabledModes>
+                                <NATNetwork name="NatNetwork"/>
+                              </Adapter>
+                            </Network>
+                            <AudioAdapter codec="AD1980" useDefault="true" driver="WAS" enabled="true" enabledOut="true"/>
+                            <RTC localOrUTC="UTC"/>
+                            <Clipboard mode="Bidirectional"/>
+                            <DragAndDrop mode="Bidirectional"/>
+                            <GuestProperties>
+                              <GuestProperty name="/VirtualBox/GuestAdd/HostVerLastChecked" value="7.0.20" timestamp="1764804305131121500" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestAdd/Revision" value="163906" timestamp="1764804276540258000" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestAdd/Version" value="7.0.20" timestamp="1764804276539737200" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestAdd/VersionExt" value="7.0.20" timestamp="1764804276539737201" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/Net/0/MAC" value="080027BA236E" timestamp="1764804281789710302" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Name" value="enp0s3" timestamp="1764804281790747600" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Status" value="Up" timestamp="1764804281790238900" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Broadcast" value="10.0.2.255" timestamp="1764804281789710300" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/IP" value="10.0.2.15" timestamp="1764804281789185600" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Netmask" value="255.255.255.0" timestamp="1764804281789710301" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/Net/Count" value="1" timestamp="1764804382206835700" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/OS/LoggedInUsers" value="0" timestamp="1764804276552848000" flags="TRANSIENT, TRANSRESET"/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/OS/NoLoggedInUsers" value="true" timestamp="1764804276552848001" flags="TRANSIENT, TRANSRESET"/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/OS/Product" value="Linux" timestamp="1764804276537116500" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/OS/Release" value="6.12.57+deb13-amd64" timestamp="1764804276537116501" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/OS/ServicePack" value="" timestamp="1764804276539214900" flags=""/>
+                              <GuestProperty name="/VirtualBox/GuestInfo/OS/Version" value="#1 SMP PREEMPT_DYNAMIC Debian 6.12.57-1 (2025-11-05)" timestamp="1764804276537116502" flags=""/>
+                              <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="es_ES" timestamp="1764802687594572200" flags="RDONLYGUEST"/>
+                              <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="163906" timestamp="1764802487765674002" flags="TRANSIENT, RDONLYGUEST"/>
+                              <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.0.20" timestamp="1764802487765674000" flags="TRANSIENT, RDONLYGUEST"/>
+                              <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.0.20" timestamp="1764802487765674001" flags="TRANSIENT, RDONLYGUEST"/>
+                              <GuestProperty name="/VirtualBox/VMInfo/ResetCounter" value="2" timestamp="1764804258427001700" flags="TRANSIENT, RDONLYGUEST"/>
+                              <GuestProperty name="/VirtualBox/VMInfo/ResumeCounter" value="1" timestamp="1764802664774136800" flags="TRANSIENT, RDONLYGUEST"/>
+                            </GuestProperties>
+                            <StorageControllers>
+                              <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
+                                <AttachedDevice passthrough="false" type="DVD" hotpluggable="false" port="1" device="0">
+                                  <Image uuid="{eef642fb-102b-4c8e-bc85-48c39d79b5f0}"/>
+                                </AttachedDevice>
+                              </StorageController>
+                              <StorageController name="SATA" type="AHCI" PortCount="1" useHostIOCache="false" Bootable="true" IDE0MasterEmulationPort="0" IDE0SlaveEmulationPort="1" IDE1MasterEmulationPort="2" IDE1SlaveEmulationPort="3">
+                                <AttachedDevice nonrotational="true" type="HardDisk" hotpluggable="true" port="0" device="0">
+                                  <Image uuid="{94d1a7bf-9911-40f7-9540-fcb3de6df8c4}"/>
+                                </AttachedDevice>
+                              </StorageController>
+                            </StorageControllers>
+                          </Hardware>
+                        </Snapshot>
+                      </Snapshots>
                     </Snapshot>
                   </Snapshots>
                 </Snapshot>
@@ -1329,7 +1406,7 @@
       </Snapshots>
     </Snapshot>
     <Hardware>
-      <CPU>
+      <CPU count="2">
         <PAE enabled="false"/>
         <LongMode enabled="true"/>
         <X2APIC enabled="true"/>
@@ -1352,29 +1429,55 @@
         <Adapter slot="0" enabled="true" MACAddress="080027BA236E" type="82540EM">
           <DisabledModes>
             <NAT localhost-reachable="true"/>
-            <NATNetwork name="NatNetwork"/>
+            <InternalNetwork name="intnet"/>
           </DisabledModes>
-          <InternalNetwork name="intnet"/>
+          <NATNetwork name="NatNetwork"/>
         </Adapter>
       </Network>
       <AudioAdapter codec="AD1980" useDefault="true" driver="WAS" enabled="true" enabledOut="true"/>
       <RTC localOrUTC="UTC"/>
-      <Clipboard/>
+      <Clipboard mode="Bidirectional"/>
+      <DragAndDrop mode="Bidirectional"/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="es_ES" timestamp="1764723055812993900" flags="RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="163906" timestamp="1764722133277413902" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.0.20" timestamp="1764722133277413900" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.0.20" timestamp="1764722133277413901" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/VMInfo/ResetCounter" value="1" timestamp="1764722320366493000" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/VMInfo/ResumeCounter" value="1" timestamp="1764720357420258300" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/GuestAdd/HostVerLastChecked" value="7.0.20" timestamp="1764804305131121500" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestAdd/Revision" value="163906" timestamp="1764976162185888701" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestAdd/Version" value="7.0.20" timestamp="1764976162185358201" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestAdd/VersionExt" value="7.0.20" timestamp="1764976162185888700" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/MAC" value="080027BA236E" timestamp="1764976162187473701" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Name" value="enp0s3" timestamp="1764976162188011201" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Status" value="Up" timestamp="1764976162188011200" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Broadcast" value="172.16.1.255" timestamp="1764982824033275400" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/IP" value="172.16.0.2" timestamp="1764982824032745200" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Netmask" value="255.255.254.0" timestamp="1764982824033275401" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/1/MAC" value="080027BA236E" timestamp="1764982834054970801" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/1/Name" value="enp0s3" timestamp="1764982834055490000" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/1/Status" value="Up" timestamp="1764982834055477800" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/1/V4/Broadcast" value="10.0.2.255" timestamp="1764982834054445801" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/1/V4/IP" value="10.0.2.15" timestamp="1764982834054445800" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/1/V4/Netmask" value="255.255.255.0" timestamp="1764982834054970800" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/Count" value="2" timestamp="1764984653409475800" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/LoggedInUsers" value="0" timestamp="1764976162186422200" flags="TRANSIENT, TRANSRESET"/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/NoLoggedInUsers" value="true" timestamp="1764976162186422201" flags="TRANSIENT, TRANSRESET"/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/Product" value="Linux" timestamp="1764976162184834000" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/Release" value="6.12.57+deb13-amd64" timestamp="1764976162184834001" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/ServicePack" value="" timestamp="1764976162185358200" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/Version" value="#1 SMP PREEMPT_DYNAMIC Debian 6.12.57-1 (2025-11-05)" timestamp="1764976162184834002" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="es_ES" timestamp="1764984663516555500" flags="RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="163906" timestamp="1764976158575977402" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.0.20" timestamp="1764976158575977400" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.0.20" timestamp="1764976158575977401" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/VMInfo/ResetCounter" value="2" timestamp="1764804258427001700" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/VMInfo/ResumeCounter" value="4" timestamp="1764976158575977401" flags="TRANSIENT, RDONLYGUEST"/>
       </GuestProperties>
       <StorageControllers>
         <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
-          <AttachedDevice passthrough="false" type="DVD" hotpluggable="false" port="1" device="0"/>
+          <AttachedDevice passthrough="false" type="DVD" hotpluggable="false" port="1" device="0">
+            <Image uuid="{eef642fb-102b-4c8e-bc85-48c39d79b5f0}"/>
+          </AttachedDevice>
         </StorageController>
         <StorageController name="SATA" type="AHCI" PortCount="1" useHostIOCache="false" Bootable="true" IDE0MasterEmulationPort="0" IDE0SlaveEmulationPort="1" IDE1MasterEmulationPort="2" IDE1SlaveEmulationPort="3">
-          <AttachedDevice type="HardDisk" hotpluggable="false" port="0" device="0">
-            <Image uuid="{94d1a7bf-9911-40f7-9540-fcb3de6df8c4}"/>
+          <AttachedDevice nonrotational="true" type="HardDisk" hotpluggable="true" port="0" device="0">
+            <Image uuid="{7e96d184-55b5-473c-8ca5-0d78b20d305f}"/>
           </AttachedDevice>
         </StorageController>
       </StorageControllers>
