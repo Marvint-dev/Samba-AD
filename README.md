@@ -8,11 +8,11 @@ I will uploading my advantanges
 
 
 -Users Database:
-It includes, roles and permisions
+It includes, roles and permisions ----- Completed!
 
--Roles asignation and group policies
+- Group policies
 
--Automatic scripts for register all users in a row, considerating their origin table
+-Automatic scripts for register all users in a row, considerating their origin table ----- Completed!
 
 -Define a company name and design a logo
 
