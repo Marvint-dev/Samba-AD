@@ -14,6 +14,7 @@ It includes, roles and permisions ----- Completed!
 
 -Automatic scripts for register all users in a row, considerating their origin table ----- Completed!
 --- Group policies can be managed by a domain administrator using the client side --- Completed!
+Clients obtain IP address by DHCP request, and the IP address from DNS Server, no manual ip config ---- Completed!
 
 -Define a company name and design a logo
 
