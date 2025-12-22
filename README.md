@@ -10,7 +10,7 @@ I will uploading my advantanges
 -Users Database:
 It includes, roles and permisions ----- Completed!
 
-- Group policies
+- Group policies: Works god only adding the users to their respective OU!!
 
 -Automatic scripts for register all users in a row, considerating their origin table ----- Completed!
 --- Group policies can be managed by a domain administrator using the client side --- Completed!
