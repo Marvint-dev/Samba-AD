@@ -16,6 +16,8 @@ It includes, roles and permisions ----- Completed!
 --- Group policies can be managed by a domain administrator using the client side --- Completed!
 Clients obtain IP address by DHCP request, and the IP address from DNS Server, no manual ip config ---- Completed!
 
+- Fixed local admins permissionm
+
 -Define a company name and design a logo
 
 -Join linux client to a the domain
