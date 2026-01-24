@@ -19,6 +19,8 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 - Fixed local admins permissionm
 - Only Domain Admins can edit active GPO's
 
+-Add and configure an FTP-Server
+
 -Define a company name and design a logo
 
--Join linux client to a the domain
+-Join linux client to a the domain- This is becoming difficult, but I'll use GNS3 to improve in that
