@@ -16,7 +16,7 @@ It includes, roles and permisions ----- Completed!
 --- Group policies can be managed by a domain administrator using the client side --- Completed!
 Clients obtain IP address by DHCP request, and the IP address from DNS Server, no manual ip config ---- Completed!
 
-- Fixed local admins permissionm
+- Fixed local admins permission
 - Only Domain Admins can edit active GPO's
 
 -Add and configure an FTP-Server
