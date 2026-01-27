@@ -25,4 +25,4 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -Join linux client to a the domain- This is becoming difficult, but I'll use GNS3 to improve in that --- this sh*t don't work 🤬
 
--Linux client now is on domain! but still have some minor issues, first we to fix the usser loggon
+-Linux client now is on domain! but still have some minor issues, first we'v to fix the usser loggon
