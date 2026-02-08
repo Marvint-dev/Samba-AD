@@ -27,4 +27,7 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -Linux client now is on domain! but still have some minor issues, first we'v to fix the usser loggon
 
--Linux client on domain is completely worth! , oem installation has provoking minor isssues but I highly recommend don't use this kind of install for domain join purposes ----- Complete
+-Linux client on domain is completely worth! , oem installation has provoking minor isssues but I highly recommend don't use this kind of install for domain join purposes ----- now is working good
+-Fixed linux mint domain issues, auth and sssd services, finally AD users can logon into the system with his own credentials ---- Fully worth , minor issues: sudo
+
+
