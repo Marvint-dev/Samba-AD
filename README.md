@@ -31,4 +31,6 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -Fixed linux mint domain issues, auth and sssd services, finally AD users can logon into the system with his own credentials ---- Fully worth , minor issues: sudo
 
+-- Discovered an issue performing a disk import from my computer with the vmdk extension but looks is about VBox version issue, trying an older version is completely worth!
+
 
