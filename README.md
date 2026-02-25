@@ -8,7 +8,9 @@ I will uploading my advantanges
 
 
 -Users Database:
-It includes, roles and permisions ----- Completed!
+It includes, roles and permisions ----- Completed! (Only exported from db in csv format)
+Directly connected database to AD Server --- to do
+
 
 - Group policies: Works god only adding the users to their respective OU!!
 
