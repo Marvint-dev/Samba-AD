@@ -36,4 +36,8 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -- Discovered an issue performing a disk import from my computer with the vmdk extension but looks is about VBox version issue, trying an older version (7.0.26) is completely worth!
 
+---- Learned how to export and make .vdi , .vmdk VirtualBox disk into .vhdx Hyper-V disks, using quemu-img tool, need some dependencys but's very useful ---
+
+---Hyper-V uses eth0 as default network adapter, we have to change it to make work ---
+
 
