@@ -39,7 +39,9 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 ---- Learned how to export and make .vdi , .vmdk VirtualBox disk into .vhdx Hyper-V disks, using quemu-img tool, need some dependencys but's very useful ---
 
 ---Hyper-V uses eth0 as default network adapter, we have to change it to make work ---
+
 --- Made another Virtual Machine in other computer got access to my Active Directory Domain Services, both computers will be in the same network and the switch disconected from the access point ---
+
 -- Domain policies are empty, maybe cuz we're not in the Client Machine with the applied policies, it only affects the computers but not the entire domain --
 
 
