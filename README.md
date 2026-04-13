@@ -1,11 +1,4 @@
-¡Hi, this is my first time here! 
-
-I just planning to improve my skills, so thats the reason why I decided to create this repository
-
 This is an Active Directory with Samba on linux
-
-I will uploading my advantanges
-
 
 -Users Database:
 It includes, roles and permisions ----- Completed! (Only exported from db in csv format)
@@ -34,5 +27,5 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -- Domain policies are empty, maybe cuz we're not in the Client Machine with the applied policies, it only affects the computers but not the entire domain --
 
--GPO's issues fixed, is about gran permision to groups in order to allow applyng group policies inside them, very stupid is you ask me, I have to remove ther Normalusers gpo completly and create a new one from zero, but it works, It takes 5 hours to have done
+-GPO's issues fixed, is about gran permision to groups in order to allow applyng group policies inside them, very stupid is you ask me, I have to remove ther Normalusers gpo completly and create a new one from zero, but it works, It takes 5 hours to have done --
 
