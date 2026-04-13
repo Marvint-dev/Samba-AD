@@ -28,16 +28,6 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -Join linux client to a the domain- This is becoming difficult, but I'll use GNS3 to improve in that --- this sh*t don't work 🤬
 
--Linux client now is on domain! but still have some minor issues, first we'v to fix the usser loggon
-
--Linux client on domain is completely worth! , oem installation has provoking minor isssues but I highly recommend don't use this kind of install for domain join purposes ----- now is working good
-
--Fixed linux mint domain issues, auth and sssd services, finally AD users can logon into the system with his own credentials ---- Fully worth , minor issues: sudo
-
--- Discovered an issue performing a disk import from my computer with the vmdk extension but looks is about VBox version issue, trying an older version (7.0.26) is completely worth!
-
----- Learned how to export and make .vdi , .vmdk VirtualBox disk into .vhdx Hyper-V disks, using quemu-img tool, need some dependencys but's very useful ---
-
 ---Hyper-V uses eth0 as default network adapter, we have to change it to make work ---
 
 --- Made another Virtual Machine in other computer got access to my Active Directory Domain Services, both computers will be in the same network and the switch disconected from the access point ---
