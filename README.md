@@ -26,7 +26,7 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -Define a company name and design a logo
 
--Join linux client to a the domain- This is becoming difficult, but I'll use GNS3 to improve in that --- this sh*t don't work 🤬
+-Join linux client to a the domain
 
 ---Hyper-V uses eth0 as default network adapter, we have to change it to make work ---
 
@@ -34,4 +34,5 @@ Clients obtain IP address by DHCP request, and the IP address from DNS Server, n
 
 -- Domain policies are empty, maybe cuz we're not in the Client Machine with the applied policies, it only affects the computers but not the entire domain --
 
+-GPO's issues fixed, is about gran permision to groups in order to allow applyng group policies inside them, very stupid is you ask me, I have to remove ther Normalusers gpo completly and create a new one from zero, but it works, It takes 5 hours to have done
 
